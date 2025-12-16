@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Download with DLM (Firefox)",
+  "version": "1.0",
+  "description": "Надсилати посилання в локальний Download Manager (Spring+DLM).",
+  "applications": {
+    "gecko": {
+      "id": "dlm@extension.firefox",
+      "strict_min_version": "80.0"
+    }
+  },
+  "permissions": [
+    "contextMenus",
+    "cookies",
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Download with DLM",
+  "description": "Send file links to Java Download Manager",
+  "version": "1.0.0",
+  "permissions": ["contextMenus"],
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
